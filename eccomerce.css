@@ -1,0 +1,316 @@
+nav{
+    display: flex;
+    gap: 30%;
+    color: white;
+    background-color: black;
+    padding-top: 4%;
+}
+.logo{
+   margin-left: 10%;
+   margin-top: -1%;
+}
+.firstflex{
+    display: flex;
+    gap: 50%;
+}
+.firstflex ul{
+    display: flex;
+    gap: 35%; 
+    list-style-type: none;   
+}
+.firstflex ul a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.5s ease;
+}
+.firstflex ul a:hover{
+    color: rgb(123, 35, 35);
+}
+.i{
+    display: flex; 
+    gap: 50%;
+    margin-left: 80%;
+    margin-top: -1%;
+}
+.i a{
+    color: white;
+    transition: all 0.5s ease;
+}
+.i a:hover{
+    color: rgb(123, 35, 35);
+}
+.sectionn{
+    margin-top: -40%;
+    animation: names 1s linear;
+}
+.p{
+    margin-top: 1%;
+    color: white;
+    margin-left: 7%;
+    font-size: 20px;
+}
+.submit{
+    margin-left: 7%;
+    background-color: burlywood;
+    padding: 10px;
+    border: 3px solid burlywood;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+}
+.submit a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.submit:hover{
+    background-color: white;
+    border: 3px solid  white;
+}
+.enter{
+    margin-left: 2%;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 15px;
+    width: 10%;
+    transition: all 0.5s ease;
+}
+.enter a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 17px;
+}
+.enter:hover{
+    background-color: burlywood;
+    border: 3px solid burlywood;
+}
+@keyframes names {
+  from{
+    opacity: 1;
+    transform: translateY(50px);
+    background-image: none;
+  }
+  to{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.container-fluid{
+    margin-top: 10%;
+}
+.ssflex{
+    margin-top: 40%;
+    display: flex;
+    gap: 20%;
+    margin-left: 15%;
+    padding-top: 5%;
+    overflow: hidden;
+    margin-right: 10%;
+}
+.h11{
+    font-size: 38px;
+    font-weight: 900;
+}
+.p11{
+    line-height: 30px;
+}
+.button{
+    width: 50%;
+    margin-bottom: 4%;
+    padding: 15px;
+    border: 5px solid white;
+    border-radius: 12px;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+.button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.button:hover{
+    background-color: burlywood;
+    width: 55%;
+}
+.container-fluid{
+    margin-top: 2%;
+}
+.card-title{
+    margin-top: 5%;
+    margin-left: 15%;
+    font-size: 35px;
+}
+.card-text{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-size: 25px;
+}
+.submitt{
+    margin-left: 15%;
+    margin-top: 10%;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 12px;
+}
+.submitt a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+.p111{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.title{
+    font-size: 25px;
+    margin-left: 20%;
+    font-weight: 600;
+}
+.text{
+    font-size: 15px;
+    margin-left: 10%;
+    font-weight: 600;
+}
+.submittt{
+    background-color: burlywood;
+    margin-left: 10%;
+    border-radius: 12px;
+    transition: all 0.5s ease;
+    padding: 10px;
+}
+.submittt a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+}
+.submittt:hover{
+    background-color: white;
+    border: 3px solid burlywood;
+}
+.flexend{
+    display: flex;
+    gap: 15%;
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+}
+.name{
+    margin-top: 30px;
+    margin-left: 20%;
+    color: white;
+}
+.footer{
+    background-color: burlywood;
+    margin-top: 0%;
+    display: flex;
+    gap: 10%;
+}
+.help-links li{
+    list-style-type: none;
+}
+.about li{
+    list-style-type: none;
+}
+.help-card li{
+    list-style-type: none;
+}
+.scroll-button a{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    background: black;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+    z-index: 2;
+}
+nav .menu-btn, .navbar .menu .cancel-btn{
+    position: absolute;
+    color: #fff;
+    right: 30px;
+    top: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: none;
+}
+nav .menu-btn{
+    color: #4070f4;
+}
+nav.sticky .menu-btn{
+    color: #fff;
+}
+nav.sticky .menu .menu-btn{
+    color: #fff;
+}
+@media (max-width:750px) {
+    nav{
+        gap: 2%;
+    }
+    .logo{
+        font-size: 10px;
+        margin-left: 5%;
+    }
+    .firstflex ul{
+        gap: 20%;
+    }
+    .firstflex ul a{
+        font-size: 10.5px;
+    }
+    .i{
+      margin-left: 5%;
+    }
+    .i a{
+        margin-top: 4%;
+        font-size: 13px;
+    }
+    .img{
+        background-image: url('cappuccino_reduced_height.png');
+    }
+    .p{
+        font-size: 12px;
+    }
+    .submit{
+        width: 40%;
+        margin-left: 5%;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+    .submit a{
+        font-size: 13px;
+    }
+    .enter{
+        width: 40%;
+        margin-left: 3%;
+        padding: 5px;
+        margin-bottom: 5%;
+    }
+    .enter a{
+        font-size: 13px;
+    }
+    .firstr{
+        margin-top: -7%;
+    }
+    .ssflex{
+        margin-top: 10%;
+        gap: 10%;
+    }
+    .button{
+        width: 70%;
+        padding: 10px;
+    
+    }
+    .imageee img{
+        width: 50%;
+        height: 100%;
+        margin-right:-10%;
+    }
+}
